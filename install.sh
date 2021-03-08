@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cp KvYaru* ~/.config/Kvantum/ -r
+cp src/dark/KvYaru* ~/.config/Kvantum/ -r
+cp src/normal/KvYaru* ~/.config/Kvantum/ -r
