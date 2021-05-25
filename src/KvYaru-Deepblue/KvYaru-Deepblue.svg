@@ -34,16 +34,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:window-width="1904"
+     inkscape:window-height="1000"
      id="namedview1579"
      showgrid="false"
-     inkscape:zoom="9.7846236"
-     inkscape:cx="169.95601"
-     inkscape:cy="839.70558"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="3.0832923"
+     inkscape:cx="309.82123"
+     inkscape:cy="845.2899"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg1577"
      inkscape:document-rotation="0" />
   <defs
@@ -1524,6 +1524,50 @@
        fx="5.3529415"
        fy="50.291935"
        r="1.6470588" />
+    <filter
+       width="1.024"
+       x="-0.012"
+       y="-0.012"
+       height="1.024"
+       style="color-interpolation-filters:sRGB"
+       id="filter1992">
+      <feGaussianBlur
+         stdDeviation="0.075"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       width="1.024"
+       x="-0.012"
+       y="-0.012"
+       height="1.024"
+       style="color-interpolation-filters:sRGB"
+       id="filter1992-3-2">
+      <feGaussianBlur
+         stdDeviation="0.075"
+         id="feGaussianBlur2-6-2" />
+    </filter>
+    <filter
+       width="1.024"
+       x="-0.012"
+       y="-0.012"
+       height="1.024"
+       style="color-interpolation-filters:sRGB"
+       id="filter1992-3-2-6">
+      <feGaussianBlur
+         stdDeviation="0.075"
+         id="feGaussianBlur2-6-2-1" />
+    </filter>
+    <filter
+       width="1.024"
+       x="-0.012"
+       y="-0.012"
+       height="1.024"
+       style="color-interpolation-filters:sRGB"
+       id="filter1992-3-2-6-0">
+      <feGaussianBlur
+         stdDeviation="0.075"
+         id="feGaussianBlur2-6-2-1-9" />
+    </filter>
   </defs>
   <circle
      cx="243"
@@ -2496,22 +2540,6 @@
      id="spin-minus-disabled"
      xlink:href="#spin-down-pressed"
      transform="translate(273,0)" />
-  <rect
-     width="10"
-     x="320.50012"
-     y="600.50012"
-     rx="2.5"
-     height="15"
-     style="fill:#fff;fill-rule:evenodd;stroke:#bababa;stroke-linecap:round"
-     id="checkbox-normal" />
-  <rect
-     width="10"
-     x="340.5"
-     y="600.5"
-     rx="2.5"
-     height="15"
-     style="fill:#f5f5f5;fill-rule:evenodd;stroke:#bababa;stroke-linecap:round"
-     id="checkbox-focused" />
   <path
      style="fill:#f0f0f0;fill-rule:evenodd"
      id="header-normal-bottom"
@@ -4116,7 +4144,7 @@
      xlink:href="#ebutton-toggled-inactive-topleft"
      transform="rotate(-180,84.25,-29.25)" />
   <g
-     style="line-height:normal;color:#000"
+     style="line-height:normal;color:#000;opacity:0"
      id="focus-top"
      transform="translate(237,739.5)">
     <path
@@ -4124,7 +4152,7 @@
        d="m 90,109.5 h 20 v -2 H 90 Z"
        id="path966" />
     <g
-       style="fill-opacity:.137"
+       style="fill-opacity:0.137"
        id="g976">
       <path
          style="fill:#b4b4b4;fill-opacity:1"
@@ -4149,19 +4177,22 @@
      height="100%"
      id="focus-right"
      xlink:href="#focus-top"
-     transform="rotate(90,337,859)" />
+     transform="rotate(90,337,859)"
+     style="opacity:0" />
   <use
      width="100%"
      height="100%"
      id="focus-bottom"
      xlink:href="#focus-top"
-     transform="rotate(180,337,859)" />
+     transform="rotate(180,337,859)"
+     style="opacity:0" />
   <use
      width="100%"
      height="100%"
      id="focus-left"
      xlink:href="#focus-top"
-     transform="rotate(-90,337,859)" />
+     transform="rotate(-90,337,859)"
+     style="opacity:0" />
   <use
      width="100%"
      height="100%"
@@ -5164,42 +5195,6 @@
      xlink:href="#arrow-separator-top-normal-inactive"
      transform="matrix(-1,0,0,1,475,0)" />
   <g
-     id="checkbox-tristate-normal">
-    <rect
-       width="15"
-       x="400.5"
-       y="600.5"
-       rx="2.5"
-       height="15"
-       style="fill:#25469d;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;fill-opacity:1;stroke-opacity:1"
-       id="rect1293" />
-    <rect
-       width="10"
-       x="403"
-       y="-609"
-       rx="0.5"
-       height="2"
-       style="fill:#fff;color:#000"
-       transform="scale(1,-1)"
-       id="rect1295" />
-  </g>
-  <g
-     id="menu-radio-checked-focused"
-     transform="translate(-2,-36)">
-    <circle
-       cx="283"
-       cy="626"
-       style="opacity:0;fill:none;stroke:#161616;color:#000;stroke-width:1.2"
-       r="7.4"
-       id="circle1298" />
-    <circle
-       cx="283"
-       cy="626"
-       style="fill:#3d3d3d;color:#000"
-       r="2.75"
-       id="circle1300" />
-  </g>
-  <g
      id="progress-normal-top">
     <path
        style="fill:#dedede;fill-rule:evenodd"
@@ -5846,67 +5841,6 @@
      style="opacity:0;fill:#130602"
      id="menubaritem-normal-bottomright"
      d="m 359,680 h 20 v 5 h -20 z" />
-  <path
-     style="opacity:0;fill-rule:evenodd"
-     id="menu-radio-normal"
-     d="m 257,582 h 16 v 16 h -16 z" />
-  <path
-     style="opacity:0;fill-rule:evenodd"
-     id="menu-radio-focused"
-     d="m 241,582 h 16 v 16 h -16 z" />
-  <use
-     width="100%"
-     height="100%"
-     xlink:href="#menu-radio-checked-focused"
-     id="menu-radio-checked-normal"
-     transform="translate(16)" />
-  <g
-     id="menu-checkbox-checked-focused"
-     transform="translate(-36)">
-    <rect
-       width="14.8"
-       x="389.6"
-       y="582.6"
-       rx="2"
-       height="14.8"
-       style="opacity:0;fill:none;fill-rule:evenodd;stroke:#3d3d3d;stroke-linecap:round;stroke-width:1.2"
-       id="rect1518" />
-    <path
-       style="fill:#3d3d3d;fill-rule:evenodd"
-       d="m 11.0503,4.1735 l -.0659,.0577 -4.7348,4.1472 -2.7756,-2.3809 -.8391,.9489 3.6153,3.8037 5.4997,-5.7872 z "
-       transform="matrix(1.2547306,0,0,1.2547306,389.40837,580.2374)"
-       id="path1520" />
-  </g>
-  <g
-     id="checkbox-checked-normal">
-    <rect
-       width="15"
-       x="360.5"
-       y="600.5"
-       rx="2.5"
-       height="15"
-       style="fill:#25469d;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1;fill-opacity:1"
-       id="rect1523" />
-    <path
-       style="fill:#f3f3f3;fill-rule:evenodd"
-       d="m 6.2496,8.3784 -2.7756,-2.3809 -.8391,.9489 3.6153,3.8037 5.4997,-5.7872 -.6997,-.7893 l -.0659,.0577 z "
-       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
-       id="path1525" />
-  </g>
-  <use
-     width="100%"
-     height="100%"
-     xlink:href="#menu-checkbox-checked-focused"
-     id="menu-checkbox-checked-normal"
-     transform="translate(16)" />
-  <path
-     style="opacity:0;fill-rule:evenodd"
-     id="menu-checkbox-normal"
-     d="m 321,582 h 16 v 16 h -16 z" />
-  <path
-     style="opacity:0;fill-rule:evenodd"
-     id="menu-checkbox-focused"
-     d="m 337,582 h 16 v 16 h -16 z" />
   <g
      id="ebutton-focus-bottom">
     <path
@@ -7247,4 +7181,362 @@
        style="fill:#c8c8c8;fill-opacity:1;stroke-width:0.447214"
        id="splitter-grip-normal-1-5" />
   </g>
+  <g
+     id="checkbox-normal"
+     transform="translate(2.0349805,1.7092595)">
+    <path
+       style="fill:#bababa;fill-opacity:1;fill-rule:evenodd;filter:url(#filter1992)"
+       d="m 323,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path454" />
+    <rect
+       width="13"
+       x="321"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+       id="rect456" />
+  </g>
+  <g
+     id="checkbox-focused"
+     transform="translate(2.0349805,1.7092595)">
+    <path
+       style="fill:#bababa;fill-opacity:1;fill-rule:evenodd"
+       d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path459" />
+    <rect
+       width="13"
+       x="341"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#f5f5f5;fill-opacity:1;fill-rule:evenodd"
+       id="rect461" />
+  </g>
+  <g
+     id="checkbox-checked-normal"
+     transform="translate(1.5503205,2.1735678)">
+    <rect
+       width="15"
+       x="360.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1523-5" />
+    <path
+       style="fill:#f3f3f3;fill-rule:evenodd"
+       d="M 6.2496,8.3784 3.474,5.9975 2.6349,6.9464 6.2502,10.7501 11.7499,4.9629 11.0502,4.1736 10.9843,4.2313 Z"
+       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
+       id="path1525-3" />
+  </g>
+  <g
+     id="checkbox-checked-focussed"
+     transform="translate(22.260181,1.9406277)">
+    <rect
+       width="15"
+       x="360.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1523-7" />
+    <path
+       style="fill:#f3f3f3;fill-rule:evenodd"
+       d="M 6.2496,8.3784 3.474,5.9975 2.6349,6.9464 6.2502,10.7501 11.7499,4.9629 11.0502,4.1736 10.9843,4.2313 Z"
+       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
+       id="path1525-5" />
+  </g>
+  <g
+     id="checkbox-tristate-normal"
+     transform="translate(2.0668405,2.2222119)">
+    <rect
+       width="15"
+       x="400.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1293-6" />
+    <rect
+       width="10"
+       x="403"
+       y="-609"
+       rx="0.5"
+       height="2"
+       style="color:#000000;fill:#ffffff"
+       transform="scale(1,-1)"
+       id="rect1295-2" />
+  </g>
+  <g
+     id="checkbox-tristate-focused"
+     transform="translate(21.377721,2.576228)">
+    <rect
+       width="15"
+       x="400.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1293-9" />
+    <rect
+       width="10"
+       x="403"
+       y="-609"
+       rx="0.5"
+       height="2"
+       style="color:#000000;fill:#ffffff"
+       transform="scale(1,-1)"
+       id="rect1295-1" />
+  </g>
+  <g
+     id="menu-checkbox-normal"
+     transform="translate(2.0349805,-18.29074)">
+    <path
+       style="fill:#bababa;fill-opacity:1;fill-rule:evenodd;filter:url(#filter1992-3-2)"
+       d="m 323,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path454-5-9" />
+    <rect
+       width="13"
+       x="321"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+       id="rect456-6-7" />
+  </g>
+  <g
+     id="menu-checkbox-focused"
+     transform="translate(2.0349805,-18.29074)">
+    <path
+       style="fill:#bababa;fill-opacity:1;fill-rule:evenodd"
+       d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path459-9-6" />
+    <rect
+       width="13"
+       x="341"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#f5f5f5;fill-opacity:1;fill-rule:evenodd"
+       id="rect461-1-1" />
+  </g>
+  <g
+     id="menu-checkbox-checked-normal"
+     transform="translate(1.5503205,-17.826432)">
+    <rect
+       width="15"
+       x="360.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1523-70-9" />
+    <path
+       style="fill:#f3f3f3;fill-rule:evenodd"
+       d="M 6.2496,8.3784 3.474,5.9975 2.6349,6.9464 6.2502,10.7501 11.7499,4.9629 11.0502,4.1736 10.9843,4.2313 Z"
+       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
+       id="path1525-9-3" />
+  </g>
+  <g
+     id="menu-checkbox-checked-focused"
+     transform="translate(22.260181,-18.059372)">
+    <rect
+       width="15"
+       x="360.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1523-7-60-9" />
+    <path
+       style="fill:#f3f3f3;fill-rule:evenodd"
+       d="M 6.2496,8.3784 3.474,5.9975 2.6349,6.9464 6.2502,10.7501 11.7499,4.9629 11.0502,4.1736 10.9843,4.2313 Z"
+       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
+       id="path1525-5-6-4" />
+  </g>
+  <g
+     id="menu-checkbox-tristate-normal"
+     transform="translate(2.0668405,-17.777788)">
+    <rect
+       width="15"
+       x="400.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1293-6-8" />
+    <rect
+       width="10"
+       x="403"
+       y="-609"
+       rx="0.5"
+       height="2"
+       style="color:#000000;fill:#ffffff"
+       transform="scale(1,-1)"
+       id="rect1295-18-4" />
+  </g>
+  <g
+     id="menu-checkbox-tristate-focused"
+     transform="translate(21.377721,-17.423772)">
+    <rect
+       width="15"
+       x="400.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1293-9-9-0" />
+    <rect
+       width="10"
+       x="403"
+       y="-609"
+       rx="0.5"
+       height="2"
+       style="color:#000000;fill:#ffffff"
+       transform="scale(1,-1)"
+       id="rect1295-1-2-3" />
+  </g>
+  <g
+     id="item-checkbox-normal"
+     transform="translate(2.0349805,-38.29074)">
+    <path
+       style="fill:#bababa;fill-opacity:1;fill-rule:evenodd;filter:url(#filter1992-3-2-6)"
+       d="m 323,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path454-5-9-6" />
+    <rect
+       width="13"
+       x="321"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+       id="rect456-6-7-3" />
+  </g>
+  <g
+     id="item-checkbox-focused"
+     transform="translate(2.0349805,-38.29074)">
+    <path
+       style="fill:#bababa;fill-opacity:1;fill-rule:evenodd"
+       d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path459-9-6-0" />
+    <rect
+       width="13"
+       x="341"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#f5f5f5;fill-opacity:1;fill-rule:evenodd"
+       id="rect461-1-1-6" />
+  </g>
+  <g
+     id="item-checkbox-checked-normal"
+     transform="translate(1.5503205,-37.826432)">
+    <rect
+       width="15"
+       x="360.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1523-70-9-5" />
+    <path
+       style="fill:#f3f3f3;fill-rule:evenodd"
+       d="M 6.2496,8.3784 3.474,5.9975 2.6349,6.9464 6.2502,10.7501 11.7499,4.9629 11.0502,4.1736 10.9843,4.2313 Z"
+       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
+       id="path1525-9-3-5" />
+  </g>
+  <g
+     id="item-checkbox-checked-focused"
+     transform="translate(22.260181,-38.059372)">
+    <rect
+       width="15"
+       x="360.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1523-7-60-9-7" />
+    <path
+       style="fill:#f3f3f3;fill-rule:evenodd"
+       d="M 6.2496,8.3784 3.474,5.9975 2.6349,6.9464 6.2502,10.7501 11.7499,4.9629 11.0502,4.1736 10.9843,4.2313 Z"
+       transform="matrix(1.2547306,0,0,1.2547306,359.65837,598.2374)"
+       id="path1525-5-6-4-6" />
+  </g>
+  <g
+     id="item-checkbox-tristate-normal"
+     transform="translate(2.0668405,-37.777788)">
+    <rect
+       width="15"
+       x="400.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1293-6-8-6" />
+    <rect
+       width="10"
+       x="403"
+       y="-609"
+       rx="0.5"
+       height="2"
+       style="color:#000000;fill:#ffffff"
+       transform="scale(1,-1)"
+       id="rect1295-18-4-9" />
+  </g>
+  <g
+     id="item-checkbox-tristate-focused"
+     transform="translate(21.377721,-37.423772)">
+    <rect
+       width="15"
+       x="400.5"
+       y="600.5"
+       rx="2.5"
+       height="15"
+       style="fill:#25469d;fill-opacity:1;fill-rule:evenodd;stroke:#25469d;stroke-linecap:round;stroke-opacity:1"
+       id="rect1293-9-9-0-7" />
+    <rect
+       width="10"
+       x="403"
+       y="-609"
+       rx="0.5"
+       height="2"
+       style="color:#000000;fill:#ffffff"
+       transform="scale(1,-1)"
+       id="rect1295-1-2-3-4" />
+  </g>
+  <circle
+     cx="241.63708"
+     cy="555.6676"
+     style="color:#000000;fill:#ffffff;stroke:#bababa"
+     r="7.5"
+     id="menu-radio-normal" />
+  <circle
+     cx="261.63708"
+     cy="555.6676"
+     style="color:#000000;fill:#f5f5f5;stroke:#bababa"
+     r="7.5"
+     id="menu-radio-checked-focused" />
+  <g
+     id="menu-radio-checked-normal"
+     transform="translate(-1.3629162,-52.332418)">
+    <circle
+       cx="283"
+       cy="608"
+       style="color:#000000;fill:#25469d;fill-opacity:1;stroke:#25469d;stroke-opacity:1"
+       r="7.5"
+       id="circle216-2" />
+    <circle
+       cx="283"
+       cy="608"
+       style="color:#000000;fill:#ffffff"
+       r="2.5"
+       id="circle218-0" />
+  </g>
+  <circle
+     cx="261.29016"
+     cy="574.73846"
+     style="color:#000000;fill:#f5f5f5;stroke:#bababa"
+     r="7.5"
+     id="menu-radio-focused" />
 </svg>
