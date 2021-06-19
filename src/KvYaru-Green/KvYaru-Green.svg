@@ -34,15 +34,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="950"
-     inkscape:window-height="1017"
+     inkscape:window-width="1904"
+     inkscape:window-height="993"
      id="namedview1579"
      showgrid="false"
-     inkscape:zoom="1.1093924"
-     inkscape:cx="66.703178"
-     inkscape:cy="726.9745"
-     inkscape:window-x="5764"
-     inkscape:window-y="1097"
+     inkscape:zoom="2.6357022"
+     inkscape:cx="277.53515"
+     inkscape:cy="628.86468"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1577"
      inkscape:document-rotation="0"
@@ -5050,16 +5050,16 @@
      id="tabbarframe-normal-top"
      transform="matrix(1,0,0,0.75,360,-25.5)">
     <path
-       style="fill:#c4c4c4"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 29,950 v 1.3332 H 61 V 950 Z"
        id="path1212" />
     <path
-       style="fill:#f7f7f7"
+       style="fill:#fcfcfc;fill-opacity:1"
        d="M 61,954 H 29 v -2.6667 h 32 z"
        id="path1214" />
   </g>
   <path
-     style="fill:#f7f7f7;fill-rule:evenodd"
+     style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
      id="tabbarframe-normal"
      d="m 389,722 v -32 h 32 v 32 z" />
   <g
@@ -5067,11 +5067,11 @@
      id="tabbarframe-normal-left"
      transform="matrix(0.75,0,0,1,367.25,-264)">
     <path
-       style="fill:#c4c4c4"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 25,954 v 32 h 1.33333 v -32 z"
        id="path1218" />
     <path
-       style="fill:#f7f7f7"
+       style="fill:#fcfcfc;fill-opacity:1"
        d="m 29,954 v 32 h -2.66666 v -32 z"
        id="path1220" />
   </g>
@@ -5079,11 +5079,11 @@
      id="tabbarframe-normal-topleft"
      transform="translate(245,-78)">
     <path
-       style="fill:#f7f7f7;fill-rule:evenodd"
+       style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
        d="m 142,768 v -2 h 2 v 2 z"
        id="path1223" />
     <path
-       style="fill:#c4c4c4"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 144,765 h -3 v 3 h 1 v -2 h 2 z"
        id="path1225" />
   </g>
@@ -5622,11 +5622,11 @@
      id="tabbarframe-normal-inactive-left"
      transform="matrix(0.75,0,0,1,446.25,-264)">
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 25,954 v 32 h 1.33333 v -32 z"
        id="path1374" />
     <path
-       style="fill:#f7f7f7"
+       style="fill:#fcfcfc;fill-opacity:1"
        d="m 29,954 v 32 h -2.66666 v -32 z"
        id="path1376" />
   </g>
@@ -5634,11 +5634,11 @@
      id="tabbarframe-normal-inactive-topleft"
      transform="translate(324,-78)">
     <path
-       style="fill:#f7f7f7;fill-rule:evenodd"
+       style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
        d="m 142,768 v -2 h 2 v 2 z"
        id="path1379" />
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 144,765 h -3 v 3 h 1 v -2 h 2 z"
        id="path1381" />
   </g>
@@ -5647,11 +5647,11 @@
      id="tabbarframe-normal-inactive-top"
      transform="matrix(0,0.75,-1,0,1454,668.25)">
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 25,954 v 32 h 1.33333 v -32 z"
        id="path1384" />
     <path
-       style="fill:#f7f7f7"
+       style="fill:#fcfcfc;fill-opacity:1"
        d="m 29,954 v 32 h -2.66666 v -32 z"
        id="path1386" />
   </g>
@@ -5660,11 +5660,11 @@
      id="tabbarframe-normal-inactive-right"
      transform="matrix(-0.75,0,0,1,521.75,-264)">
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 25,954 v 32 h 1.33333 v -32 z"
        id="path1389" />
     <path
-       style="fill:#f7f7f7"
+       style="fill:#fcfcfc;fill-opacity:1"
        d="m 29,954 v 32 h -2.66666 v -32 z"
        id="path1391" />
   </g>
@@ -5672,11 +5672,11 @@
      id="tabbarframe-normal-inactive-topright"
      transform="matrix(-1,0,0,1,644,-78)">
     <path
-       style="fill:#f7f7f7;fill-rule:evenodd"
+       style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
        d="m 142,768 v -2 h 2 v 2 z"
        id="path1394" />
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 144,765 h -3 v 3 h 1 v -2 h 2 z"
        id="path1396" />
   </g>
@@ -5685,11 +5685,11 @@
      id="tabbarframe-normal-inactive-bottom"
      transform="matrix(0,-0.75,1,0,-486,743.75)">
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 25,954 v 32 h 1.33333 v -32 z"
        id="path1399" />
     <path
-       style="fill:#f7f7f7"
+       style="fill:#fcfcfc;fill-opacity:1"
        d="m 29,954 v 32 h -2.66666 v -32 z"
        id="path1401" />
   </g>
@@ -5697,11 +5697,11 @@
      id="tabbarframe-normal-inactive-bottomleft"
      transform="rotate(-90,283,583)">
     <path
-       style="fill:#f7f7f7;fill-rule:evenodd"
+       style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
        d="m 142,768 v -2 h 2 v 2 z"
        id="path1404" />
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 144,765 h -3 v 3 h 1 v -2 h 2 z"
        id="path1406" />
   </g>
@@ -5709,16 +5709,16 @@
      id="tabbarframe-normal-inactive-bottomright"
      transform="rotate(180,322,745)">
     <path
-       style="fill:#f7f7f7;fill-rule:evenodd"
+       style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
        d="m 142,768 v -2 h 2 v 2 z"
        id="path1409" />
     <path
-       style="fill:#cecece"
+       style="fill:#e4e4e4;fill-opacity:1"
        d="m 144,765 h -3 v 3 h 1 v -2 h 2 z"
        id="path1411" />
   </g>
   <path
-     style="fill:#f7f7f7;fill-rule:evenodd"
+     style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
      id="tabbarframe-normal-inactive"
      d="m 468,722 v -32 h 32 v 32 z" />
   <g

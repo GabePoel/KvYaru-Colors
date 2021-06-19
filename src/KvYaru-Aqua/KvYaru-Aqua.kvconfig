@@ -153,6 +153,7 @@ text.margin.right=3
 frame.expansion=14
 min_height=+0.2font
 min_width=+0.2font
+text.bold=false
 text.boldness=0
 
 [PanelButtonTool]
@@ -329,9 +330,11 @@ indicator.element=toolbar
 indicator.size=5
 text.margin=0
 interior=false
-frame=false
+frame=true
+frame.top=0
+frame.left=0
 text.shadow=false
-frame.expansion=0
+frame.expansion=-0
 
 [Slider]
 inherits=PanelButtonCommand
