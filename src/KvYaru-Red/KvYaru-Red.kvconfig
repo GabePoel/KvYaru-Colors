@@ -333,8 +333,9 @@ interior=false
 frame=true
 frame.top=0
 frame.left=0
+frame.right=0
 text.shadow=false
-frame.expansion=-0
+frame.expansion=0
 
 [Slider]
 inherits=PanelButtonCommand
