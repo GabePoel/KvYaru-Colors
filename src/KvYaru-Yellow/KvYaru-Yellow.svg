@@ -34,15 +34,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1904"
-     inkscape:window-height="993"
+     inkscape:window-width="3824"
+     inkscape:window-height="2073"
      id="namedview1579"
      showgrid="false"
-     inkscape:zoom="2.6357022"
-     inkscape:cx="277.53515"
-     inkscape:cy="628.86468"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
+     inkscape:zoom="21.085618"
+     inkscape:cx="380.70974"
+     inkscape:cy="706.09741"
+     inkscape:window-x="3848"
+     inkscape:window-y="8"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1577"
      inkscape:document-rotation="0"
@@ -5046,7 +5046,7 @@
      id="floating-button-normal"
      d="m 268,722 v -32 h 32 v 32 z" />
   <g
-     style="fill-rule:evenodd"
+     style="fill-rule:evenodd;opacity:1"
      id="tabbarframe-normal-top"
      transform="matrix(1,0,0,0.75,360,-25.5)">
     <path
@@ -5059,11 +5059,11 @@
        id="path1214" />
   </g>
   <path
-     style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1;opacity:1"
      id="tabbarframe-normal"
      d="m 389,722 v -32 h 32 v 32 z" />
   <g
-     style="fill-rule:evenodd"
+     style="fill-rule:evenodd;opacity:1"
      id="tabbarframe-normal-left"
      transform="matrix(0.75,0,0,1,367.25,-264)">
     <path
@@ -5077,7 +5077,8 @@
   </g>
   <g
      id="tabbarframe-normal-topleft"
-     transform="translate(245,-78)">
+     transform="translate(245,-78)"
+     style="opacity:1">
     <path
        style="fill:#fcfcfc;fill-rule:evenodd;fill-opacity:1"
        d="m 142,768 v -2 h 2 v 2 z"
@@ -5092,7 +5093,8 @@
      height="100%"
      xlink:href="#tabbarframe-normal-topleft"
      id="tabbarframe-normal-topright"
-     transform="matrix(-1,0,0,1,810,0)" />
+     transform="matrix(-1,0,0,1,810,0)"
+     style="opacity:1" />
   <path
      style="opacity:0;fill-rule:evenodd"
      id="floating-button-focused"
@@ -5106,7 +5108,8 @@
      height="100%"
      xlink:href="#tabbarframe-normal-left"
      id="tabbarframe-normal-right"
-     transform="matrix(-1,0,0,1,810,0)" />
+     transform="matrix(-1,0,0,1,810,0)"
+     style="opacity:1" />
   <path
      style="opacity:0;fill-rule:evenodd"
      id="tab-separator-toggled"
@@ -6023,13 +6026,14 @@
      id="menubaritem-normal-bottomright"
      d="m 359,680 h 20 v 5 h -20 z" />
   <g
-     id="ebutton-focus-bottom">
+     id="ebutton-focus-bottom"
+     style="opacity:0">
     <path
        style="opacity:0"
        d="m -52,39 h 32.5 v 7 h -32.5 z"
        id="path1536" />
     <path
-       style="opacity:.4;fill:#e9ba20;line-height:normal;color:#000"
+       style="opacity:0.4;fill:#e9ba20;line-height:normal;color:#000"
        d="M -20.5,41 H -51 v -1 h 30.5 z"
        id="path1538" />
   </g>
