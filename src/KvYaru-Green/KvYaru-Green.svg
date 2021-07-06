@@ -38,9 +38,9 @@
      inkscape:window-height="1000"
      id="namedview1579"
      showgrid="false"
-     inkscape:zoom="1.7885907"
-     inkscape:cx="185.06191"
-     inkscape:cy="717.88365"
+     inkscape:zoom="4.8973369"
+     inkscape:cx="172.54275"
+     inkscape:cy="863.93893"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -2201,7 +2201,7 @@
        style="opacity:0"
        id="rect322" />
     <path
-       style="fill:#3d3d3d;fill-rule:evenodd"
+       style="fill:#3d3d3d;fill-rule:evenodd;opacity:0.8"
        d="m 225,670.8847 c -3.25,0 -6,1.81312 -6,4.35153 v 3.26367 h 6 z"
        id="path324" />
   </g>
@@ -2216,7 +2216,7 @@
        style="opacity:0"
        id="rect327" />
     <path
-       style="fill:#3d3d3d;fill-rule:evenodd"
+       style="fill:#3d3d3d;fill-rule:evenodd;opacity:0.8"
        d="m 219,678.5004 v 22.8687 0.131 h 6 v -23 h -6 z"
        id="path329" />
   </g>
@@ -2922,7 +2922,7 @@
        style="opacity:0"
        id="rect573" />
     <path
-       style="fill:#808080;fill-rule:evenodd;stroke-width:0.360001"
+       style="fill:#3d3d3d;fill-rule:evenodd;stroke-width:0.360001;opacity:0.5;fill-opacity:1"
        d="m 225,670.88467 c -1.54762,0 -2.85715,0.85342 -2.85715,2.06219 v 5.55311 H 225 Z"
        id="path575"
        sodipodi:nodetypes="csccc" />
@@ -2938,7 +2938,7 @@
        style="opacity:0"
        id="rect578" />
     <path
-       style="fill:#808080;fill-rule:evenodd;stroke-width:0.756"
+       style="fill:#3d3d3d;fill-rule:evenodd;stroke-width:0.756;opacity:0.5;fill-opacity:1"
        d="m 222.14285,678.5004 v 22.8687 0.131 H 225 v -23 h -2.85715 z"
        id="path580"
        sodipodi:nodetypes="ccccccc" />
