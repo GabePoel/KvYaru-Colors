@@ -38,9 +38,9 @@
      inkscape:window-height="1000"
      id="namedview1579"
      showgrid="false"
-     inkscape:zoom="1.9083887"
-     inkscape:cx="196.76285"
-     inkscape:cy="391.42969"
+     inkscape:zoom="1.7885907"
+     inkscape:cx="185.06191"
+     inkscape:cy="717.88365"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -2913,7 +2913,7 @@
      transform="rotate(-180,257,838.5)" />
   <g
      id="scrollbarslider-normal-topleft"
-     transform="matrix(1,0,0,1.3788175,-2,-108.52753)">
+     transform="matrix(1.0000001,0,0,1.3788175,-2.0000168,-108.52753)">
     <rect
        width="12"
        x="213"
@@ -2922,13 +2922,14 @@
        style="opacity:0"
        id="rect573" />
     <path
-       style="fill:#808080;fill-rule:evenodd;stroke-width:.756"
-       d="m 225,670.8847 c -3.25,0 -6,1.81312 -6,4.35153 v 3.26367 h 6 z"
-       id="path575" />
+       style="fill:#808080;fill-rule:evenodd;stroke-width:0.360001"
+       d="m 225,670.88467 c -1.54762,0 -2.85715,0.85342 -2.85715,2.06219 v 5.55311 H 225 Z"
+       id="path575"
+       sodipodi:nodetypes="csccc" />
   </g>
   <g
      id="scrollbarslider-normal-left"
-     transform="translate(-2,148.5)">
+     transform="translate(-2.0000168,148.5)">
     <rect
        width="12"
        x="213"
@@ -2937,34 +2938,43 @@
        style="opacity:0"
        id="rect578" />
     <path
-       style="fill:#808080;fill-rule:evenodd;stroke-width:.756"
-       d="m 219,678.5004 v 22.8687 0.131 h 6 v -23 h -6 z"
-       id="path580" />
+       style="fill:#808080;fill-rule:evenodd;stroke-width:0.756"
+       d="m 222.14285,678.5004 v 22.8687 0.131 H 225 v -23 h -2.85715 z"
+       id="path580"
+       sodipodi:nodetypes="ccccccc" />
   </g>
   <use
      width="100%"
      height="100%"
      id="scrollbarslider-normal-topright"
      xlink:href="#scrollbarslider-normal-topleft"
-     transform="matrix(-1,0,0,1,446,0)" />
+     transform="matrix(-1,0,0,1,446,0)"
+     x="0"
+     y="0" />
   <use
      width="100%"
      height="100%"
      id="scrollbarslider-normal-right"
      xlink:href="#scrollbarslider-normal-left"
-     transform="matrix(-1,0,0,1,446,0)" />
+     transform="matrix(-1,0,0,1,446,0)"
+     x="0"
+     y="0" />
   <use
      width="100%"
      height="100%"
      id="scrollbarslider-normal-bottomleft"
      xlink:href="#scrollbarslider-normal-topleft"
-     transform="matrix(1,0,0,-1,0,1677)" />
+     transform="matrix(1,0,0,-1,0,1677)"
+     x="0"
+     y="0" />
   <use
      width="100%"
      height="100%"
      id="scrollbarslider-normal-bottomright"
      xlink:href="#scrollbarslider-normal-topleft"
-     transform="rotate(-180,223,838.5)" />
+     transform="rotate(180,223,838.5)"
+     x="0"
+     y="0" />
   <g
      id="scrollbarslider-pressed-topleft"
      transform="matrix(1,0,0,1.3788175,68,-108.52753)">
