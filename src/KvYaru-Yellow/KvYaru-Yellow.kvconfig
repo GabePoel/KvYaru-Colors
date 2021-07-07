@@ -117,7 +117,7 @@ transparent_pcmanfm_view=false
 no_selection_tint=true
 middle_click_scroll=false
 transparent_arrow_button=true
-kinetic_scrolling=false
+kinetic_scrolling=true
 
 [PanelButtonCommand]
 frame=true
@@ -331,9 +331,10 @@ indicator.size=5
 text.margin=0
 interior=false
 frame=true
-frame.top=0
 frame.left=0
 frame.right=0
+frame.top=0
+frame.bottom=1
 text.shadow=false
 frame.expansion=0
 
@@ -422,13 +423,13 @@ frame.right=6
 frame.top=6
 frame.bottom=6
 indicator.element=grip
-indicator.size=13
+indicator.size=12
 frame.expansion=0
 
 [ScrollbarGroove]
 inherits=PanelButtonCommand
-interior=false
-frame=false
+interior=true
+frame=true
 
 [MenuItem]
 inherits=PanelButtonCommand
