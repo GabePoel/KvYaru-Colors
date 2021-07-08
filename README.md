@@ -3,8 +3,8 @@ Kvantum themes to match the [Yaru colors](https://github.com/Jannomag/Yaru-Color
 
 ## Previews
 
-![Okular Preview](images/KvYaru Colors Preview 1.png)
+![Okular Preview](./images/KvYaru%20Colors%20Preview%201.png)
 
-![Kvantum Preview 1](images/KvYaru Colors Preview 2.png)
+![Kvantum Preview 1](./images/KvYaru%20Colors%20Preview%202.png)
 
-![Kvantum Preview 2](images/KvYaru Colors Preview 3.png)
+![Kvantum Preview 2](./images/KvYaru%20Colors%20Preview%203.png)
