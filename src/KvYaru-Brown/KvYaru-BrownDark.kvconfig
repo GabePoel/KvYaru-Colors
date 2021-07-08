@@ -1,6 +1,6 @@
 [%General]
-author=Tsu Jan
-comment=A dark theme with a Gnome like look and feel
+author=Gabriel Perko-Engel
+comment=A dark Kvantum theme matching Jan Schröder's Yaru Colors. Forked from initial design by Tsu Jan.
 alt_mnemonic=true
 left_tabs=false
 attach_active_tab=false

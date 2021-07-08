@@ -1,6 +1,6 @@
 [%General]
-author=Tsu Jan
-comment=A Kvantum theme matching Ubuntu's Yaru\n(formerly known as Communitheme)
+author=Gabriel Perko-Engel
+comment=A light Kvantum theme matching Jan Schröder's Yaru Colors. Forked from initial design by Tsu Jan.
 x11drag=menubar_and_primary_toolbar
 alt_mnemonic=true
 left_tabs=false
