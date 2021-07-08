@@ -38,9 +38,9 @@
      inkscape:window-height="1000"
      id="namedview1579"
      showgrid="false"
-     inkscape:zoom="2.9358802"
-     inkscape:cx="213.05365"
-     inkscape:cy="948.9488"
+     inkscape:zoom="2.0005944"
+     inkscape:cx="114.7159"
+     inkscape:cy="382.38635"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -6316,20 +6316,10 @@
        d="m 174.93333,1386.1773 h -25.6 v 13.3334 h 25.6 z" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:0.06;fill:#000000;fill-opacity:1;stroke-width:2.32974"
+       style="opacity:0.06;fill:#000000;fill-opacity:1;stroke-width:2.33235"
        id="path8751"
-       d="m 237.65192,1391.7328 -150.978896,0 v 2.2223 l 150.978896,0 z"
+       d="M 237.99084,1391.7328 H 86.673024 v 2.2223 H 237.99084 Z"
        sodipodi:nodetypes="ccccc" />
-    <path
-       d="m 87.079693,1385.0661 h -0.605271 v 15.5557 h 0.605271 z"
-       id="path3107"
-       style="opacity:0.06;fill:#ffffff;fill-opacity:1;stroke-width:2.5285"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:0.06;fill:#ffffff;fill-opacity:1;stroke-width:2.5285"
-       id="path3109"
-       d="m 237.79224,1385.0661 h -0.60527 v 15.5557 h 0.60527 z" />
   </g>
   <path
      inkscape:connector-curvature="0"
