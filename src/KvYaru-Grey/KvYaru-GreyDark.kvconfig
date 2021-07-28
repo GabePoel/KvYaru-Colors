@@ -45,7 +45,7 @@ small_icon_size=16
 large_icon_size=32
 button_icon_size=16
 toolbar_icon_size=24
-combo_as_lineedit=false
+combo_as_lineedit=true
 square_combo_button=true
 layout_spacing=5
 tooltip_delay=-1
@@ -233,9 +233,8 @@ inherits=PanelButtonCommand
 frame.element=le
 frame.expandedElement=lineedit
 interior.element=lineedit
-text.margin.left=2
-text.margin.right=2
-text.margin.top=3
+text.margin.left=9
+text.margin.right=9
 text.margin.bottom=4
 
 [DropDownButton]
@@ -249,7 +248,7 @@ indicator.size=9
 
 [ToolboxTab]
 inherits=PanelButtonCommand
-text.normal.color=#ffffffb4
+text.normal.color=white
 text.normal.inactive.color=#ffffff8c
 text.press.color=white
 text.press.inactive.color=#ffffff8c
@@ -271,9 +270,9 @@ frame.top=3
 frame.bottom=3
 frame.left=3
 frame.right=3
-text.normal.color=#ffffff7d
+text.normal.color=white
 text.normal.inactive.color=#ffffff6e
-text.focus.color=#ffffffb4
+text.focus.color=white
 text.toggle.color=white
 text.bold=false
 min_width=4font
@@ -359,9 +358,9 @@ interior.element=progress
 text.margin=0
 text.normal.color=#ffffff8c
 text.normal.inactive.color=#ffffff6e
-text.focus.color=white
-text.press.color=white
-text.toggle.color=white
+text.focus.color=#ffffff8c
+text.press.color=#ffffff8c
+text.toggle.color=#ffffff8c
 text.bold=false
 frame.expansion=8
 text.shadow=false
@@ -483,6 +482,8 @@ text.bold=false
 text.italic=false
 
 [ComboBox]
+text.margin.left=18
+text.margin.right=18
 inherits=PanelButtonCommand
 frame.element=btn
 frame.expandedElement=button

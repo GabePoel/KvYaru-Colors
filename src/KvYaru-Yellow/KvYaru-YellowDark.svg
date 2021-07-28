@@ -264,7 +264,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -281,9 +280,9 @@
      inkscape:window-height="1000"
      id="namedview1568"
      showgrid="false"
-     inkscape:zoom="14.182541"
-     inkscape:cx="266.10181"
-     inkscape:cy="831.65631"
+     inkscape:zoom="2.1745264"
+     inkscape:cx="266.03494"
+     inkscape:cy="132.44263"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -1570,7 +1569,7 @@
        id="path173" />
   </g>
   <path
-     style="fill:#3d3d3d;fill-rule:evenodd;stroke:url(#linearGradient5114);fill-opacity:1"
+     style="fill:#aeaeae;fill-rule:evenodd;stroke:url(#linearGradient5114);fill-opacity:1"
      id="slidercursor-normal"
      d="m 121.2119,609 c -3.04582,2.5 -6.42348,8.49989 -12.1429,8.49989 -5.71937,0 -8.57274,-4 -8.56888,-8.49989 0.003,-4.50058 2.84951,-8.5 8.56888,-8.5 5.71939,0 9.09705,6 12.1429,8.5 z " />
   <path
@@ -1618,7 +1617,7 @@
      cy="608"
      rx="7.5"
      ry="7.5"
-     style="fill:#3d3d3d;stroke:#e9ba20;color:#000;fill-opacity:1;stroke-opacity:1"
+     style="fill:#4c4c4c;stroke:#181818;color:#000;fill-opacity:1;stroke-opacity:1"
      id="radio-focused" />
   <path
      style="fill:#1b1b1b;fill-rule:evenodd"
@@ -1831,7 +1830,8 @@
      d="m 155,839 h 5 v 1 h -5 z" />
   <g
      id="resize-grip-normal"
-     transform="translate(0,12.5)">
+     transform="translate(0,12.5)"
+     style="opacity:0">
     <rect
        width="25"
        x="375"
@@ -1840,7 +1840,7 @@
        style="opacity:0;fill:#7b7b7b"
        id="rect384" />
     <path
-       style="opacity:.2;fill:#fff"
+       style="opacity:0.2;fill:#fff"
        d="m 400,92.5 -20,20 h 20 z"
        id="path386" />
   </g>
@@ -2058,16 +2058,9 @@
      id="menubaritem-toggled-bottomright"
      d="m 360,680 h 20 v 5 h -20 z" />
   <path
-     style="fill:#3d3d3d;fill-rule:evenodd;stroke:#e9ba20;fill-opacity:1;stroke-opacity:1"
+     style="fill:#bfbfbf;fill-rule:evenodd;stroke:#181818;fill-opacity:1;stroke-opacity:1"
      id="slidercursor-focused"
      d="m 151.2118,609 c -3.0458,2.5 -6.42343,8.49982 -12.1428,8.49982 -5.71931,0 -8.57265,-4 -8.56881,-8.49982 0.003,-4.50051 2.8495,-8.4998 8.56881,-8.4998 5.71936,0 9.09699,6 12.1428,8.4998 z " />
-  <use
-     width="100%"
-     height="100%"
-     xlink:href="#slidercursor-focused"
-     id="slidercursor-pressed"
-     transform="translate(35,0)"
-     style="fill:#3d3d3d;fill-opacity:1" />
   <path
      style="fill:#3d3d3d;fill-rule:evenodd;stroke:#1b1b1b;fill-opacity:1"
      id="slidercursor-disabled"
@@ -2094,7 +2087,7 @@
   <g
      id="checkbox-focused">
     <path
-       style="fill:#e9ba20;fill-rule:evenodd;fill-opacity:1"
+       style="fill:#181818;fill-rule:evenodd;fill-opacity:1"
        d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 h -9 z  m .4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z "
        id="path459" />
     <rect
@@ -2103,8 +2096,24 @@
        y="602"
        rx="2.4"
        height="13"
-       style="fill:#3d3d3d;fill-rule:evenodd;fill-opacity:1"
+       style="fill:#4c4c4c;fill-rule:evenodd;fill-opacity:1"
        id="rect461" />
+  </g>
+  <g
+     id="checkbox-pressed"
+     transform="translate(0,20)">
+    <path
+       style="fill:#181818;fill-opacity:1;fill-rule:evenodd"
+       d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path459-6" />
+    <rect
+       width="13"
+       x="341"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#181818;fill-opacity:1;fill-rule:evenodd"
+       id="rect461-2" />
   </g>
   <g
      id="tabbarframe-normal-bottom"
@@ -2275,27 +2284,43 @@
   <circle
      cx="110"
      cy="583"
-     style="fill:#3d3d3d;fill-rule:evenodd;stroke:#181818;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1;fill-opacity:1"
+     style="fill:#aeaeae;fill-rule:evenodd;stroke:#181818;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1;fill-opacity:1"
      r="9.5"
      id="slidercursor-tickless-normal" />
   <circle
      cx="140"
      cy="583"
-     style="fill:#3d3d3d;fill-rule:evenodd;stroke:#e9ba20;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1;fill-opacity:1"
+     style="fill:#bfbfbf;fill-rule:evenodd;stroke:#181818;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1;fill-opacity:1"
      id="slidercursor-tickless-focused"
      r="9.5" />
-  <use
-     width="100%"
-     height="100%"
+  <circle
+     cx="73.410683"
+     cy="836.7464"
+     style="fill:#bfbfbf;fill-opacity:1;fill-rule:evenodd;stroke:#181818;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="dial-handle"
+     r="4.75" />
+  <path
+     style="fill:#bfbfbf;fill-opacity:1;fill-rule:evenodd;stroke:#e9ba20;stroke-opacity:1"
+     id="slidercursor-pressed"
+     d="m 186.2118,609 c -3.0458,2.5 -6.42343,8.49982 -12.1428,8.49982 -5.71931,0 -8.57265,-4 -8.56881,-8.49982 0.003,-4.50051 2.8495,-8.4998 8.56881,-8.4998 5.71936,0 9.09699,6 12.1428,8.4998 z" />
+  <circle
+     cx="175"
+     cy="583.00006"
+     style="fill:#bfbfbf;fill-opacity:1;fill-rule:evenodd;stroke:#e9ba20;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
      id="slidercursor-tickless-pressed"
-     xlink:href="#slidercursor-tickless-focused"
-     transform="translate(34)" />
+     r="9.5" />
   <circle
      cx="208"
      cy="583"
      style="fill:#3d3d3d;fill-rule:evenodd;stroke:#181818;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1;fill-opacity:1"
      r="9.5"
      id="slidercursor-tickless-disabled" />
+  <circle
+     cx="-14.041097"
+     cy="836.90552"
+     style="fill:#3d3d3d;fill-opacity:1;fill-rule:evenodd;stroke:#181818;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="dial-handle-inactive"
+     r="4.75" />
   <path
      style="paint-order:normal;fill-rule:evenodd"
      id="expand-button-normal"
@@ -4714,20 +4739,6 @@
        d="m 125,98 h 1 v 4 h -1 z"
        id="path1430" />
   </g>
-  <circle
-     cx="-12"
-     cy="835"
-     style="opacity:0.7;fill:#e9ba20;fill-opacity:1;fill-rule:evenodd"
-     r="5"
-     id="dial-handle-inactive" />
-  <rect
-     width="45"
-     x="-68"
-     y="815"
-     rx="22.5"
-     height="45"
-     style="opacity:0.064;fill-rule:evenodd"
-     id="dial-inactive" />
   <use
      width="100%"
      height="100%"
@@ -4738,7 +4749,7 @@
   <use
      width="100%"
      height="100%"
-     style="opacity:.6"
+     style="opacity:0"
      xlink:href="#resize-grip-normal"
      id="resize-grip-normal-inactive"
      transform="translate(38)" />
@@ -5242,11 +5253,12 @@
        d="m 99,815 h 45 v 45 H 99 Z"
        id="path910-2" />
     <path
-       style="fill:#555555"
+       style="fill:#a5a5a5;fill-opacity:1"
        d="m 111.6152,818.3809 -1.7305,1 1.75,3.0312 1.7305,-1 z m 19.7695,0 -1.75,3.0312 1.7305,1 1.75,-3.0312 z M 99.9999,836.5 v 2 h 3.5 v -2 z m 39.5,0 v 2 h 3.5 v -2 z m -27.8652,16.0879 -1.75,3.0312 1.7305,1 1.75,-3.0312 z m 19.7305,0 -1.7305,1 1.75,3.0312 1.7305,-1 z"
-       id="path912-7" />
+       id="path912-7"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc" />
     <path
-       style="fill:#5a5a5a"
+       style="fill:#a5a5a5;fill-opacity:1"
        d="m 119.5019,816.0918 -0.498,0.0527 0.2617,2.4863 0.4961,-0.0527 z m 3.9961,0 -0.2598,2.4863 0.4961,0.0527 0.2617,-2.4863 z m -8.4043,0.8828 -0.4746,0.1543 0.7715,2.3789 0.4766,-0.1543 -0.7734,-2.3789 z m 12.8125,0 -0.7734,2.3789 0.4766,0.1543 0.7715,-2.3789 -0.4746,-0.1543 z m -20.6074,4.3809 -0.3711,0.334 1.6738,1.8574 0.3711,-0.334 z m 28.4023,0 -1.6738,1.8574 0.3711,0.334 1.6738,-1.8574 z m -31.4473,3.3047 -0.2949,0.4043 2.0234,1.4707 0.293,-0.4062 z m 34.4922,0 -2.0215,1.4688 0.293,0.4062 2.0234,-1.4707 z m -36.7852,3.8672 -0.2031,0.457 2.2832,1.0156 0.2031,-0.457 z m 39.0781,0 -2.2832,1.0156 0.2031,0.457 2.2832,-1.0156 z m -40.5176,4.2578 -0.1035,0.4902 2.4453,0.5195 0.1035,-0.4902 z m 41.957,0 -2.4453,0.5195 0.1035,0.4902 2.4453,-0.5195 z m -39.6152,8.4199 -2.4453,0.5195 0.1035,0.4902 2.4453,-0.5195 z m 37.2734,0 -0.1035,0.4902 2.4453,0.5195 0.1035,-0.4902 z M 104.0408,845 l -2.2832,1.0156 0.2031,0.457 2.2832,-1.0156 z m 34.918,0 -0.2031,0.457 2.2832,1.0156 0.2031,-0.457 z m -32.9766,3.4648 -2.0234,1.4707 0.2949,0.4043 2.0215,-1.4688 z m 31.0352,0 -0.293,0.4062 2.0215,1.4688 0.2949,-0.4043 z m -28.416,2.9883 -1.6738,1.8574 0.3711,0.334 1.6738,-1.8574 z m 25.7969,0 -0.3711,0.334 1.6738,1.8574 0.3711,-0.334 z"
        id="path914-0" />
   </g>
@@ -5256,14 +5268,8 @@
      y="812.8783"
      rx="22.5"
      height="45"
-     style="fill-opacity:0.059;fill-rule:evenodd"
+     style="fill-opacity:1;fill-rule:evenodd;fill:#272727;stroke:#0d0d0d;stroke-opacity:0.75;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
      id="dial" />
-  <circle
-     cx="79.078827"
-     cy="835.1875"
-     style="fill:#e9ba20;fill-opacity:1;fill-rule:evenodd"
-     id="dial-handle"
-     r="5" />
   <g
      id="scrollbarslider-pressed-topleft"
      transform="matrix(1,0,0,1.3788175,69.999996,-105.52743)">
@@ -5364,11 +5370,11 @@
      id="slider-normal-topleft"
      transform="translate(-12.126803,0.45843142)">
     <path
-       style="fill:#dedede;fill-rule:evenodd"
+       style="fill:#4b4b4b;fill-rule:evenodd;fill-opacity:1"
        d="m 41,590 c -6.648,0 -12,5.352 -12,12 h 12 z"
        id="path1319" />
     <path
-       style="fill:#c4c4c4;fill-rule:evenodd"
+       style="fill:#4b4b4b;fill-rule:evenodd;fill-opacity:1"
        d="m 41,590 c -6.648,0 -12,5.352 -12,12 h 6 c 0,-3.324 2.676,-6 6,-6 z"
        id="path1321" />
   </g>
@@ -5376,11 +5382,11 @@
      id="slider-normal-left"
      transform="translate(-12.126803,0.45843142)">
     <path
-       style="fill:#dedede;fill-rule:evenodd"
+       style="fill:#4b4b4b;fill-rule:evenodd;fill-opacity:1"
        d="m 29,602 v 16.4063 0.094 h 12 v -16.5 H 29 Z"
        id="path1324" />
     <path
-       style="fill:#c4c4c4;fill-rule:evenodd"
+       style="fill:#4b4b4b;fill-rule:evenodd;fill-opacity:1"
        d="m 29,602 v 16.4063 0.094 h 6 v -16.5 h -6 z"
        id="path1326" />
   </g>
@@ -5749,7 +5755,7 @@
      id="item-checkbox-focused"
      transform="translate(0,-40)">
     <path
-       style="fill:#e9ba20;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#181818;fill-opacity:1;fill-rule:evenodd"
        d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
        id="path459-9-6-0" />
     <rect
@@ -5758,8 +5764,24 @@
        y="602"
        rx="2.4000001"
        height="13"
-       style="fill:#3d3d3d;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#4c4c4c;fill-opacity:1;fill-rule:evenodd"
        id="rect461-1-1-6" />
+  </g>
+  <g
+     id="item-checkbox-pressed"
+     transform="translate(0,-60)">
+    <path
+       style="fill:#181818;fill-opacity:1;fill-rule:evenodd"
+       d="m 343,601 c -1.662,0 -3,1.338 -3,3 v 9 c 0,1.662 1.338,3 3,3 h 9 c 1.662,0 3,-1.338 3,-3 v -9 c 0,-1.662 -1.338,-3 -3,-3 z m 0.4004,1 h 8.19922 c 1.3296,0 2.40039,1.07079 2.40039,2.40039 v 8.19922 c 0,1.3296 -1.07079,2.40039 -2.40039,2.40039 h -8.19922 c -1.3296,0 -2.40039,-1.07079 -2.40039,-2.40039 v -8.19922 c 0,-1.3296 1.07079,-2.40039 2.40039,-2.40039 z"
+       id="path459-9-6-0-5" />
+    <rect
+       width="13"
+       x="341"
+       y="602"
+       rx="2.4000001"
+       height="13"
+       style="fill:#181818;fill-opacity:1;fill-rule:evenodd"
+       id="rect461-1-1-6-3" />
   </g>
   <g
      id="item-checkbox-checked-normal"
@@ -7889,4 +7911,8 @@
        d="m 247.81793,811.36048 c -2.70834,0 -5,2.26188 -5,5.42857 v 4.07143 h 5 z"
        id="path324-5-2-6-2-7" />
   </g>
+  <path
+     style="opacity:0.5;fill:#e9ba20;fill-rule:evenodd"
+     id="dial-focus"
+     d="m -57.871475,814.08205 c -12.465,0 -22.5,10.035 -22.5,22.5 0,12.465 10.035,22.5 22.5,22.5 12.465,0 22.5,-10.035 22.5,-22.5 0,-12.465 -10.035,-22.5 -22.5,-22.5 z m 0,1 c 11.911,0 21.5,9.589 21.5,21.5 0,11.911 -9.589,21.5 -21.5,21.5 -11.911,0 -21.5,-9.589 -21.5,-21.5 0,-11.911 9.589,-21.5 21.5,-21.5 z" />
 </svg>

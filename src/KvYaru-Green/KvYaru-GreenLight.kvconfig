@@ -46,7 +46,7 @@ small_icon_size=16
 large_icon_size=32
 button_icon_size=16
 toolbar_icon_size=24
-combo_as_lineedit=false
+combo_as_lineedit=true
 square_combo_button=true
 layout_spacing=5
 tooltip_delay=-1
@@ -234,11 +234,10 @@ frame.right=1
 inherits=PanelButtonCommand
 frame.element=lineedit
 interior.element=lineedit
-text.margin.left=1
-text.margin.right=1
+text.margin.left=9
+text.margin.right=9
 text.margin.bottom=4
 frame.expandedElement=elineedit
-frame.expansion=14
 
 [DropDownButton]
 inherits=PanelButtonCommand
@@ -442,8 +441,8 @@ text.focus.color=#3D3D3D
 text.shadow=false
 text.margin.top=0
 text.margin.bottom=0
-text.margin.left=6
-text.margin.right=6
+text.margin.left=0
+text.margin.right=0
 frame.top=0
 frame.bottom=0
 frame.left=18
@@ -492,6 +491,8 @@ text.boldness=0
 text.italic=false
 
 [ComboBox]
+text.margin.left=18
+text.margin.right=18
 inherits=PanelButtonCommand
 frame.expandedElement=ebutton
 
