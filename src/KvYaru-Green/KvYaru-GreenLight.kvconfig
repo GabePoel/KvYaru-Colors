@@ -461,12 +461,12 @@ text.focus.color=black
 text.shadow=false
 text.margin.top=0
 text.margin.bottom=0
-text.margin.left=16
-text.margin.right=16
+text.margin.left=0
+text.margin.right=0
 frame.top=0
 frame.bottom=0
-frame.left=4
-frame.right=4
+frame.left=20
+frame.right=20
 frame.expansion=0
 
 [MenuBar]
